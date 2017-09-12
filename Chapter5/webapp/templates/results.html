@@ -10,9 +10,13 @@
         <td>Phrase:</td>
         <td>{{ the_phrase }}</td>
     </tr>
+    <tr>
+        <td>Letters:</td>
+        <td>{{ the_letters }}</td>
+    </tr>
 </table>
 
-<p> When "{{ the phrase }}" is search for "{{ the_letters }}", the following results are returned:</p>
+<p> When "{{ the_phrase }}" is search for "{{ the_letters }}", the following results are returned:</p>
 <h3>{{ the_results }}</h3>
 
 {% endblock %}
